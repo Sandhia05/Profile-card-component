@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(25, 161, 173);
+}
+.vc{
+    background-color: white;
+    position: relative;
+    top: -10px;
+    left: -15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    opacity: 0.8;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.ag{
+    background-color: white;
+    margin-left: 6px;  
+    position: relative;
+    top: -10px;
+    left: -13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    opacity: 0.6;
+}
+.cit{
+    background-color: white;
+    margin-left: 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+.line{
+    width: 300px;
+    height: 1px;
+    opacity: 0.2;
+    color: rgb(237, 237, 237);
+    position: relative;
+    top: -70px;   
+}
+h3{
+    display: inline-block;
+    flex-direction: column !important;
+    background-color: white;
+    position: relative;
+    top: -50px;
+    left: 40px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    opacity: 0.8;
+}
+h4{
+    display: inline-block;
+    flex-direction: column !important;
+    background-color: white; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    opacity: 0.6;
+    letter-spacing: 1px;
+}
+.img{
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 30%;
+    height: 25%;
+    position: relative;
+    top: -45px;
+    left: 103px;
+}
+.bg{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    width: 280px; 
+    position: relative;
+    top: -1px;
+    left: -1px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media all and (max-width: 600px) {
+    .box{
+        display: inline-block;
+        border: 1px solid transparent;
+        border-radius: 14px;
+        width: 280px;
+        height: auto;
+        margin: 140px 160px;
+        background-color: white;
+    }
+    body{
+        background-image: url(./images/bg-pattern-top.svg), 
+                          url(./images/bg-pattern-bottom.svg);
+        background-position:
+                top -120px left -140px,
+                top 350px left 385px,
+                bottom 0px right 10px,
+                bottom 72px right 10px;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 60%, 65%;
+    }
+}
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media all and (min-width: 400px) {
+    .box{
+        display: inline-block;
+        border: 1px solid transparent;
+        border-radius: 14px;
+        width: 280px;
+        height: auto;
+        margin: 140px 160px;
+        background-color: white;
+    }
+    body{
+        background-image: url(./images/bg-pattern-top.svg), 
+                          url(./images/bg-pattern-bottom.svg);
+        background-position:
+                top -120px left -140px,
+                top 350px left 385px,
+                bottom 0px right 10px,
+                bottom 72px right 10px;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 60%, 65%;
+    }
+ }
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media all and (min-width: 768px) {
+    .box{
+        display: inline-block;
+        border: 1px solid transparent;
+        border-radius: 14px;
+        width: 280px;
+        height: auto;
+        margin: 140px 160px;
+        background-color: white;
+    }
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media all and (min-width: 992px) {
+    .box{
+        display: inline-block;
+        border: 1px solid transparent;
+        border-radius: 14px;
+        width: 280px;
+        height: auto;
+        margin: 140px 160px;
+        background-color: white;
+    }
+
+}
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media all and (min-width: 1200px) {
+    .box{
+        display: inline-block;
+        border: 1px solid transparent;
+        border-radius: 14px;
+        width: 280px;
+        height: auto;
+        margin: 140px 160px;
+        background-color: white;
+    }
+    body{
+        background-image: url(./images/bg-pattern-top.svg), 
+                          url(./images/bg-pattern-bottom.svg);
+        background-position:
+                top -120px left -140px,
+                top 350px left 385px,
+                bottom 0px right 10px,
+                bottom 72px right 10px;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 60%, 65%;
+    }
+ }
